@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/reset">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>My Gallery</h1>
+    <div class="container">
+        <ul class="galeri">
+            <li>
+                <a href="#gambar-1">
+                <img width="120px" height="120px" src="img/thumbs/1.jpeg" alt="Miku">
+                <span>Miku</span>
+                </a>
+
+                <div class="overlay" id="gambar-1">
+                    <a href="" class="close">close</a>
+                    <img src="img/full/miku.jpeg" alt="Miku">
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-2">
+                <img width="120px" height="120px" src="img/thumbs/2.jpeg" alt="Tsukasa">
+                <span>Tsukas</span>
+                </a>
+
+                <div class="overlay" id="gambar-2">
+                    <a href="" class="close">close</a>
+                    <img src="img/full/tsukasa.jpeg" alt="Tsukasa">
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-3">
+                <img width="120px" height="120px" src="img/thumbs/3.jpeg" alt="Tohka">
+                <span>Tohka</span>
+                </a>
+
+                <div class="overlay" id="gambar-3">
+                    <a href="" class="close">close</a>
+                    <img src="img/full/tohka.jpeg" alt="Tohka">
+                </div>
+            </li>
+
+            <li>
+                <a href="#gambar-4">
+                <img width="120px" height="120px" src="img/thumbs/4.jpeg" alt="Elaina">
+                <span>Elaina</span>
+                </a>
+
+                <div class="overlay" id="gambar-4">
+                    <a href="" class="close">close</a>
+                    <img src="img/full/elaina.jpeg" alt="Elaina">
+                </div>
+            </li>
+
+            <div class="clear"></div>
+        </ul>
+    </div>
+</body>
+</html>
